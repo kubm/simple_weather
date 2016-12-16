@@ -1,6 +1,7 @@
 package com.example.kubacm.weatherapp;
 
 
+import android.app.ProgressDialog;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
@@ -10,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,6 +33,7 @@ public class WeatherFragment extends Fragment {
     TextView detailsField;
     TextView currentTemperatureField;
     TextView weatherIcon;
+    ProgressDialog prg;
 
     Handler handler;
 
@@ -52,8 +55,8 @@ public class WeatherFragment extends Fragment {
         detailsField = (TextView) rootView.findViewById(R.id.details_field);
         currentTemperatureField = (TextView) rootView.findViewById(R.id.current_temperature_field);
         weatherIcon = (TextView) rootView.findViewById(R.id.weather_icon);
-
         weatherIcon.setTypeface(weatherFont);
+        prg = ProgressDialog.show(getActivity(), "Connecting to database", "Please wait a little bit", true);
         return rootView;
     }
 
@@ -74,6 +77,7 @@ public class WeatherFragment extends Fragment {
                     handler.post(new Runnable() {
                         @Override
                         public void run() {
+                            prg.dismiss();
                             Toast.makeText(getActivity(),getActivity().getString(R.string.place_not_found),Toast.LENGTH_LONG).show();
                         }
                     });
@@ -81,6 +85,7 @@ public class WeatherFragment extends Fragment {
                   handler.post(new Runnable() {
                       @Override
                       public void run() {
+                          prg.dismiss();
                           renderWeather(json);
                       }
                   })  ;
