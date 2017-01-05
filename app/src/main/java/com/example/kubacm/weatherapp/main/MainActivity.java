@@ -1,4 +1,4 @@
-package com.example.kubacm.weatherapp;
+package com.example.kubacm.weatherapp.main;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,11 +16,15 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.kubacm.weatherapp.CityList;
+import com.example.kubacm.weatherapp.R;
+import com.example.kubacm.weatherapp.WeatherFragment;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements CityList.OnClickedItemListener{
+public class MainActivity extends AppCompatActivity implements CityList.OnClickedItemListener {
 
 
     @Override
