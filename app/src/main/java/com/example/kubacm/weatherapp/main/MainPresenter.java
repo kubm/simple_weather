@@ -5,4 +5,11 @@ package com.example.kubacm.weatherapp.main;
  */
 
 public interface MainPresenter {
+
+    void onResume();
+
+    void onItemClicked(int position);
+
+    void onDestroy();
+
 }

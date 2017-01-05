@@ -13,6 +13,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -24,32 +25,62 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements CityList.OnClickedItemListener {
+public class MainActivity extends AppCompatActivity implements MainView, AdapterView.OnItemClickListener {
 
+    private ListView listView;
+    private ProgressBar progressBar;
+    private MainPresenter presenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        View v = this.getWindow().getDecorView();
-        v.setBackgroundColor(ResourcesCompat.getColor(getResources(),R.color.white,null));
-
-        CityList city_list = new CityList();
-        getSupportFragmentManager().beginTransaction().add(R.id.activity_main,city_list).addToBackStack(null).commit();
-
-
+        listView = (ListView) findViewById(R.id.list);
+        listView.setOnItemClickListener(this);
+        progressBar = (ProgressBar) findViewById(R.id.progress);
+        presenter = new MainPresenterImpl(this, new FindItemsInteractorImpl());
+        List<String>Cities = createItemList();
+        setItems(Cities);
         };
-    public void Clicked(String search_name){
-        Toast.makeText(this,search_name+" selected",Toast.LENGTH_LONG).show();
-        Bundle bundle = new Bundle();
-        bundle.putString("search_name",search_name);
-        WeatherFragment wf = new WeatherFragment();
-        wf.setArguments(bundle);
-        getSupportFragmentManager().beginTransaction().replace(R.id.activity_main,wf).addToBackStack(null).commit();
-        //WeatherFragment wf = (WeatherFragment)getSupportFragmentManager().findFragmentById(R.id.activity_main);
-        //wf.changeCity(search_name);
-        //getSupportFragmentManager().beginTransaction().replace(R.id.activity_main, new WeatherFragment()).addToBackStack(null).commit();
+    @Override
+    protected void onResume() {
+        super.onResume();
+        presenter.onResume();
+    }
 
+    @Override protected void onDestroy(){
+        presenter.onDestroy();
+        super.onDestroy();
+    }
+
+    @Override public void showProgress(){
+        progressBar.setVisibility(View.VISIBLE);
+        listView.setVisibility(View.INVISIBLE);
+    }
+
+    @Override public void hideProgress(){
+        progressBar.setVisibility(View.INVISIBLE);
+        listView.setVisibility(View.VISIBLE);
+    }
+
+    @Override public void setItems(List<String>items){
+        listView.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,items));
+    }
+
+    @Override public void showMessage(String message){
+        Toast.makeText(this,message,Toast.LENGTH_LONG).show();
+    }
+
+    @Override public void onItemClick(AdapterView<?> parent, View view, int position, long id){
+        presenter.onItemClicked(position);
+    }
+
+    public List<String> createItemList(){
+        return Arrays.asList(
+                "Lodz",
+                "Warsaw",
+                "Poznan"
+        );
     }
 
 

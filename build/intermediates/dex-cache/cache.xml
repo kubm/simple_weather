@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_8b2f9fbb1fdbf26a64094ced4dcf015bce227044\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_ae5985cc62efe2a753bf0274f3a9bd93eaf005a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_466b2c2ed085cee34df3a7323d9647da4b2022d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_7600e30c78ea5f4ade0441d2ec0ee8334e1f7d84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_ba1566412c83760bccfdd07280e2fc530c00aa0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_47d5ca0bf413941687965d383316f4b6f2ebb56d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_48e7cb470046ca699a66dcc8cbc12e4f9c23b5fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_836f79e6a1bcbc803640f50953ec538ff95b0889\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_cb43b553bbad728eee94bb6c2f9ea773a1b239d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_3879f95f0102e6aedf93a6fdda231103735934c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0bcd872147e149bd795e2309ae84b830cd18763a">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d1e5541fca7d84c31260d7c9e1ec5a7ca23ff8fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2432d6b38dcbfcd2655b691919b97bfde23da802">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9819d12f455d34dff39766b05ff45c4f0d19e165\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_503853d4635cd22be03dab3345def9cae5be9948\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_cd0499aeb19362f1303116f14614a4f80878b005\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_f4b373ad1d6da2ed3b5fd86c009b23bca9f1fdbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a1166409819b0aa4d281e33f8044f1a0d3f7dd98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\kubacm\AndroidStudioProjects\simple_weather\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_ee0b6a0afd2c0f5963799e0e95a72b0ffc53bf10\classes.dex" />
+    </item>
+
+</items>
